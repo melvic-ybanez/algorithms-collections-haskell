@@ -7,7 +7,11 @@ author:         ybamelcash
 executable clrs-haskell
   hs-source-dirs:  src
   main-is:         Main.hs
-  build-depends:   base >= 4
+  build-depends:   
+                   base >= 4,
+                   containers
   ghc-options:     -Wall
-  other-modules:   Sorter
+  other-modules:   
+                   Sorter,
+                   InversionCounter
 
